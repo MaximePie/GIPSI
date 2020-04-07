@@ -11,11 +11,12 @@ class PostController extends Controller
     /**
      * Display a listing of the resource.
      *
+     * @param string $category
      * @return Post[]|Collection
      */
-    public function index()
+    public function index(string $category)
     {
-        return Post::all();
+        return Post::query()->where('category', $category)->get();
     }
 
     /**
