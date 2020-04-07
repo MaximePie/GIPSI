@@ -4,5 +4,13 @@
 // Variables
 @import 'variables';
 
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@import 'ArticlesContainer';
+@import 'Navbar';
+
+* {
+    border: solid;
+}

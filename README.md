@@ -2,9 +2,25 @@
 
 L'éducation peut changer ? Voici comment on va faire !
 
-## Freins à l'éducation 
+Le site servira à héberger des articles qui se regrouperont en 
+3 catégories : 
 
-## Outils pédagogiques 
+- Freins à l'éducation 
 
-## Innovations pédagogiques autour du monde 
+- Outils pédagogiques 
 
+- Innovations pédagogiques autour du monde 
+
+
+## Détails techniques
+
+### Stack Front 
+- React JS, HTML, CSS, Javascript 
+
+### Stack back 
+
+- Laravel 
+- MySQL
+
+### VCS 
+- Git => Github

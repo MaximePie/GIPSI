@@ -10882,3 +10882,24 @@ a.text-dark:focus {
   }
 }
 
+.ArticlesContainer {
+  border: solid;
+  margin: 16px;
+  padding: 16px;
+}
+
+.ArticlesContainer .article {
+  border: solid;
+  margin: 16px;
+  padding: 16px;
+}
+
+.Navbar {
+  padding: 8px;
+  margin: 16px 0;
+}
+
+* {
+  border: solid;
+}
+
