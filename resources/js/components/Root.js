@@ -13,13 +13,13 @@ function Root() {
                 Retrouvez tous les articles ici
                 <Switch>
                     <Route path="/about">
-                        <ArticlesContainer />
+                        <ArticlesContainer title="Contexte"/>
                     </Route>
                     <Route path="/users">
-                        <ArticlesContainer />
+                        <ArticlesContainer title="Freins"/>
                     </Route>
                     <Route path="/">
-                        <ArticlesContainer />
+                        <ArticlesContainer title="Autour du monde"/>
                     </Route>
                 </Switch>
             </div>
