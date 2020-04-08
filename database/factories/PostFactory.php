@@ -7,7 +7,7 @@ use Faker\Generator as Faker;
 
 $factory->define(Post::class, function (Faker $faker) {
 
-    $categories = ['Context', 'Brakes', 'AroundTheWorld'];
+    $categories = Post::CATEGORIES;
 
     return [
         'title' => $faker->title(),
