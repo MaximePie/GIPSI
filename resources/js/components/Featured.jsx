@@ -28,7 +28,7 @@ export default function Featured() {
                         <a href={article.url} className="Featured__actions-link">
                             <i className="Featured__action-icon fas fa-headphones"/>
                         </a>
-                        <a href={article.url} className="Featured__actions-link">
+                        <a href={article.mindMapUrl} className="Featured__actions-link">
                             <i className="Featured__action-icon fas fa-network-wired"/>
                         </a>
                     </div>

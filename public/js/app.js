@@ -92181,7 +92181,7 @@ function Featured() {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "Featured__action-icon fas fa-headphones"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: article.url,
+      href: article.mindMapUrl,
       className: "Featured__actions-link"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "Featured__action-icon fas fa-network-wired"
