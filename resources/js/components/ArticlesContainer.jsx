@@ -35,16 +35,20 @@ export default function ArticlesContainer(props) {
                                     Ecouter
                                 </a>
                             </span>
-                            <span className="article__duration">
-                                <i className="article__icon fas fa-stopwatch"/>
-                                {article.duration} min
-                            </span>
-                            <span className="article__mindmap-container">
-                                <i className="article__icon fas fa-network-wired"/>
-                                <a href={article.mindMapUrl} className="article__link">
-                                   Résumé écrit en 30 secondes !
-                                </a>
-                            </span>
+                            {article.duration && (
+                                <span className="article__duration">
+                                    <i className="article__icon fas fa-stopwatch"/>
+                                    {article.duration} min
+                                </span>
+                            )}
+                            {article.mindMapUrl && (
+                                <span className="article__mindmap-container">
+                                    <i className="article__icon fas fa-network-wired"/>
+                                    <a href={article.mindMapUrl} className="article__link">
+                                       Résumé écrit en 30 secondes !
+                                    </a>
+                                </span>
+                            )}
                         </div>
                     </div>
                 )
