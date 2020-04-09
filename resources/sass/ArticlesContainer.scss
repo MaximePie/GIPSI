@@ -4,17 +4,24 @@
     padding: 16px;
 
     .article {
-        border: solid;
+        border: dashed 1px #7a7a7a;
         margin: 16px 0;
         padding: 16px;
 
         &__details {
             display: flex;
             justify-content: flex-start;
-
         }
 
-        &__link-container, &__duration {
+        &__link-container {
+            margin-right: 8px;
+
+            .article__icon {
+                margin-left: 0;
+            }
+        }
+
+        &__duration {
             margin: 0 8px;
         }
 

@@ -10889,7 +10889,7 @@ a.text-dark:focus {
 }
 
 .ArticlesContainer .article {
-  border: solid;
+  border: dashed 1px #7a7a7a;
   margin: 16px 0;
   padding: 16px;
 }
@@ -10899,7 +10899,14 @@ a.text-dark:focus {
   justify-content: flex-start;
 }
 
-.ArticlesContainer .article__link-container,
+.ArticlesContainer .article__link-container {
+  margin-right: 8px;
+}
+
+.ArticlesContainer .article__link-container .article__icon {
+  margin-left: 0;
+}
+
 .ArticlesContainer .article__duration {
   margin: 0 8px;
 }

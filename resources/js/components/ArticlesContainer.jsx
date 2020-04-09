@@ -35,7 +35,7 @@ export default function ArticlesContainer(props) {
                             </span>
                             <span className="article__duration">
                                 <i className="article__icon fas fa-stopwatch"/>
-                                5mn
+                                {article.duration} min
                             </span>
                         </div>
                     </div>
