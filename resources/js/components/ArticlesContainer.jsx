@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import moment from "moment";
 
 export default function ArticlesContainer(props) {
 
@@ -23,6 +24,7 @@ export default function ArticlesContainer(props) {
                         <h2 className="article__title">
                             {article.title}
                         </h2>
+                        <span className="article__date">{moment(article.created_at).calendar()}</span>
                         <p className="article__content">
                             {article.content}
                         </p>

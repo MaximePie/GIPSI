@@ -18,5 +18,5 @@ class Post extends Model
     ];
 
     const CATEGORIES = ['Context', 'Brakes', 'AroundTheWorld'];
-    public $timestamps = false;
+    public $timestamps = true;
 }

@@ -20,6 +20,16 @@ class PostController extends Controller
     }
 
     /**
+     * Display a listing of the resource sorted by publishDate.
+     *
+     * @return Post[]|Collection
+     */
+    public function featuredPosts()
+    {
+        return Post::query()->orderBy('created_at', 'desc')->limit(3)->get();
+    }
+
+    /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response

@@ -21,5 +21,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('posts', 'PostController@store');
 
 Route::get('posts/{category}', 'PostController@index');
+Route::get('featuredPosts', 'PostController@featuredPosts');
 
 Route::delete('posts/{id}', 'PostController@delete');

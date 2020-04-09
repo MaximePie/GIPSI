@@ -1,0 +1,38 @@
+.Featured {
+    border: solid;
+    padding: 16px;
+    margin-right: 8px;
+
+    &__article {
+        border: dashed 1px #7a7a7a;
+        margin: 8px 0;
+        padding: 8px;
+
+        &-title {
+            font-size: 1.2em;
+        }
+
+        &-date {
+            font-size: .8em;
+            color: dimgrey;
+            font-style: italic;
+        }
+    }
+
+    &__actions {
+        &-link {
+            margin: 4px;
+            transition: color 300ms;
+            font-size: 1.35em;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:hover {
+                transition: color 300ms;
+                color: darken(#3490dc, 30%);
+            }
+        }
+    }
+}

@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ArticlesContainer from './ArticlesContainer'
+import ArticlesPage from './ArticlesPage'
 import Navbar from './Navbar'
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Route} from "react-router-dom";
 import {createBrowserHistory} from "history";
 
 function Root() {
@@ -12,13 +13,13 @@ function Root() {
             <Navbar />
             <div className="mainContainer">
                 <Route exact path="/" key="context">
-                    <ArticlesContainer title="Contexte" category="Context"/>
+                    <ArticlesPage title="Contexte" category="Context"/>
                 </Route>
                 <Route path="/brakes" key="brakes">
-                    <ArticlesContainer title="Freins" category="Brakes"/>
+                    <ArticlesPage title="Freins" category="Brakes"/>
                 </Route>
                 <Route path="/aroundtheworld" key="aroundtheworld">
-                    <ArticlesContainer title="Autour du monde" category="AroundTheWorld"/>
+                    <ArticlesPage title="Autour du monde" category="AroundTheWorld"/>
                 </Route>
             </div>
         </BrowserRouter>

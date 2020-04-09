@@ -1,12 +1,18 @@
 .ArticlesContainer {
     border: solid;
-    margin: 16px;
+    margin: 0 16px;
     padding: 16px;
 
     .article {
         border: dashed 1px #7a7a7a;
         margin: 16px 0;
         padding: 16px;
+
+        &__date {
+            font-size: .8em;
+            color: dimgrey;
+            font-style: italic;
+        }
 
         &__details {
             display: flex;
