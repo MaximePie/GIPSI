@@ -17,19 +17,27 @@ export default function ArticlesContainer(props) {
 
     return (
         <div className="ArticlesContainer">
-            <h2>C'est les articles de {props.title}</h2>
+            <h2>{props.title}</h2>
             {articlesList.map(article => (
                     <div className="article">
                         <h2 className="article__title">
                             {article.title}
-                            <i>{article.category}</i>
                         </h2>
                         <p className="article__content">
                             {article.content}
                         </p>
-                        <a href={article.url} className="article__link">
-                            Ecouter
-                        </a>
+                        <div className="article__details">
+                            <span className="article__link-container">
+                                <i className="article__icon fas fa-headphones"/>
+                                <a href={article.url} className="article__link">
+                                    Ecouter
+                                </a>
+                            </span>
+                            <span className="article__duration">
+                                <i className="article__icon fas fa-stopwatch"/>
+                                5mn
+                            </span>
+                        </div>
                     </div>
                 )
             )}

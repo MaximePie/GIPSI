@@ -7,5 +7,19 @@
         border: solid;
         margin: 16px 0;
         padding: 16px;
+
+        &__details {
+            display: flex;
+            justify-content: flex-start;
+
+        }
+
+        &__link-container, &__duration {
+            margin: 0 8px;
+        }
+
+        &__icon {
+            margin: 0 4px;
+        }
     }
 }

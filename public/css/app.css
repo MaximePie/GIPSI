@@ -10894,6 +10894,20 @@ a.text-dark:focus {
   padding: 16px;
 }
 
+.ArticlesContainer .article__details {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ArticlesContainer .article__link-container,
+.ArticlesContainer .article__duration {
+  margin: 0 8px;
+}
+
+.ArticlesContainer .article__icon {
+  margin: 0 4px;
+}
+
 .Navbar {
   padding: 8px;
   margin: 16px 0;
