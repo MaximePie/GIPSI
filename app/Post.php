@@ -15,6 +15,8 @@ class Post extends Model
         'content',
         'url',
         'category',
+        'mindMapUrl',
+        'duration',
     ];
 
     const CATEGORIES = ['Context', 'Brakes', 'AroundTheWorld'];
