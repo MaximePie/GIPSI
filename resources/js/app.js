@@ -15,3 +15,6 @@ require('@fortawesome/fontawesome-free/js/all.js');
  */
 
 require('./components/Root');
+
+import moment from 'moment';
+moment.locale('fr');

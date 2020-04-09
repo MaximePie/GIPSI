@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ArticlesContainer from './ArticlesContainer'
 import ArticlesPage from './ArticlesPage'
 import Navbar from './Navbar'
 import {BrowserRouter, Route} from "react-router-dom";
