@@ -1,0 +1,11 @@
+// This file is only used to easily insert post since we don't have the feature yet. To be removed.
+    const CATEGORIES = [];
+
+Post::create([
+'title' => "",
+'content' => "",
+'category' => "Context|Brakes|AroundTheWorld",
+'url' => "",
+'mindMapUrl' => "",
+"duration" => ,
+]);

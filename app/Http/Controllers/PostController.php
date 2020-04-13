@@ -16,7 +16,10 @@ class PostController extends Controller
      */
     public function index(string $category)
     {
-        return Post::query()->where('category', $category)->get();
+        return Post::query()
+            ->where('category', $category)
+            ->orderBy('created_at', 'desc')
+            ->get();
     }
 
     /**
