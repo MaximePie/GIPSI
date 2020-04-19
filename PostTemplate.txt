@@ -9,3 +9,6 @@ Post::create([
 'mindMapUrl' => "",
 "duration" => ,
 ]);
+
+Post::create(['title' => "Exploiter les profils héroïques et fusionnels",'content' => "Vous savez, je ne pense pas qu'il y ait de bon, ou de mauvais profil, si je devais résumer l'éducation, je dirais que ce sont d'abord des rencontres, des gens, qui m'ont tendu la main, peut-être à un moment où je ne pouvais pas, et il se trouve que toutes les personnes qui nous entourent sont des héros, ou des fusionnels. Ils sont partout, au travail, à l'école, à la maison, vous en faites peut-être partie aussi ? Aujourd'hui, on va apprendre à les reconnaître et orienter nos activités pour nous adapter à ces profils particuliers.",'category' => "Context",'url' => "https://drive.google.com/open?id=1Narrpu_K3IOHqPXNKqMrJrXB6XmZKLrR",'mindMapUrl' => "https://mind42.com/public/5558fd1a-f9e3-4a67-b874-40dacf1b7aa9","duration" => 8,]);
+
