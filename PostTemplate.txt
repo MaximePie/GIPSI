@@ -2,8 +2,8 @@
     const CATEGORIES = [];
 
 Post::create([
-'title' => "",
-'content' => "",
+'title' => "Le chamallow, catalyseur pédagogique",
+'content' => "Plus connu sous le nom de Marshmallow Challenge, le jeu du chamallow est simple, il est très utilisé en entreprise, et dans le milieu scolaire. Mais son réel potentiel réside dans la répartition des classements.",
 'category' => "Context|Brakes|AroundTheWorld",
 'url' => "",
 'mindMapUrl' => "",

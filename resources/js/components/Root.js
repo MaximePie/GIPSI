@@ -23,6 +23,7 @@ function Root() {
                     <ArticlesPage title="Autour du monde" category="AroundTheWorld"/>
                 </Route>
                 <Route path="/create" key="newPost">
+                    Nouveau post
                     <PostCreationForm/>
                 </Route>
             </div>
