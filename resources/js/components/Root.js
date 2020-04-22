@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ArticlesPage from './ArticlesPage'
 import Navbar from './Navbar'
+import PostCreationForm from './PostCreationForm'
+
 import {BrowserRouter, Route} from "react-router-dom";
 import {createBrowserHistory} from "history";
 
@@ -19,6 +21,9 @@ function Root() {
                 </Route>
                 <Route path="/aroundtheworld" key="aroundtheworld">
                     <ArticlesPage title="Autour du monde" category="AroundTheWorld"/>
+                </Route>
+                <Route path="/create" key="newPost">
+                    <PostCreationForm/>
                 </Route>
             </div>
         </BrowserRouter>
