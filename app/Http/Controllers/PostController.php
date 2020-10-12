@@ -12,16 +12,11 @@ class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @param string $category
-     * @return Post[]|Collection
      */
-    public function index(string $category)
+    public function index()
     {
-        return Post::query()
-            ->where('category', $category)
-            ->orderBy('created_at', 'desc')
-            ->get();
+        $posts = Post::all();
+        return view('post', ['posts' => $posts]);
     }
 
     /**

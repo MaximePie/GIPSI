@@ -1,0 +1,23 @@
+.Header {
+    text-align: center;
+
+    &__title {
+        margin-bottom: 8px;
+    }
+
+    &__subtitle {
+        font-size: 1.25em;
+        font-style: italic;
+        margin: 4px 0;
+    }
+
+    &__link {
+        font-size: 1.25em;
+        margin: 4px;
+        color: $primaryColor;
+
+        &:visited {
+            color: $secondaryColor;
+        }
+    }
+}

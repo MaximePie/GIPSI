@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::view('/', 'home');
-Route::view('/contact', 'home');
+Route::view('/contact', 'contact');
 Route::get('/projects', 'ProjectController@index');
 Route::get('/post', 'PostController@index');

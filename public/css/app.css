@@ -1,0 +1,34 @@
+.Header {
+  text-align: center;
+}
+
+.Header__title {
+  margin-bottom: 8px;
+}
+
+.Header__subtitle {
+  font-size: 1.25em;
+  font-style: italic;
+  margin: 4px 0;
+}
+
+.Header__link {
+  font-size: 1.25em;
+  margin: 4px;
+  color: #b8de6f;
+}
+
+.Header__link:visited {
+  color: #f1e189;
+}
+
+.Layout {
+  background-color: #01c5c4;
+  min-height: 100vh;
+  padding: 8px;
+}
+
+body {
+  margin: 0;
+}
+
