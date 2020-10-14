@@ -1,5 +1,6 @@
 .Layout {
     background-color: $backgroundColor;
-    min-height: 100vh;
-    padding: 8px;
+    min-height: calc(100vh - 16px);
+    padding: $mediumSpacing;
+    color: $black;
 }

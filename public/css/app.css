@@ -3,7 +3,7 @@
 }
 
 .Header__title {
-  margin-bottom: 8px;
+  margin: 0 0 8px;
 }
 
 .Header__subtitle {
@@ -24,8 +24,74 @@
 
 .Layout {
   background-color: #01c5c4;
-  min-height: 100vh;
+  min-height: calc(100vh - 16px);
   padding: 8px;
+  color: #404040;
+}
+
+.Contact {
+  margin: 16px auto;
+  min-width: 500px;
+  width: 66%;
+  padding: 16px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Contact__label {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+.Contact__input {
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+  margin: 4px 0;
+}
+
+.Contact__submit-container {
+  text-align: center;
+}
+
+.Contact__submit-button {
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #b8de6f;
+  transition: -webkit-filter 250ms ease-in-out;
+  transition: filter 250ms ease-in-out;
+  transition: filter 250ms ease-in-out, -webkit-filter 250ms ease-in-out;
+}
+
+.Contact__submit-button:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+  transition: -webkit-filter 250ms ease-in-out;
+  transition: filter 250ms ease-in-out;
+  transition: filter 250ms ease-in-out, -webkit-filter 250ms ease-in-out;
+}
+
+.Contact__illustration-container {
+  height: 100%;
+  width: 55%;
+}
+
+.Contact__illustration-container .Contact__illustration {
+  width: 100%;
+  opacity: 0.5;
 }
 
 body {
