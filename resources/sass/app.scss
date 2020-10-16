@@ -1,14 +1,13 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
-// Variables
 @import 'variables';
 
+@import 'Header';
+@import 'Layout';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Page
+@import 'Contact';
+@import 'Home';
 
-@import 'ArticlesPage';
-@import 'ArticlesContainer';
-@import 'Navbar';
-@import 'Featured';
+body {
+    margin: 0;
+}
+

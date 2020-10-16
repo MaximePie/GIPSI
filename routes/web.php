@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::view('/{path?}', 'welcome')
-    ->where('path', '.*')
-    ->name('welcome');
+Route::view('/', 'home');
+Route::view('/contact', 'contact');
+Route::get('/projects', 'ProjectController@index');
+Route::get('/post', 'PostController@index');
