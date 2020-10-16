@@ -9,7 +9,7 @@
     <body>
         <div class="Layout">
             @include('header')
-            <div class="container">
+            <div class="container @yield('pageClassName', '')">
                 @yield('content')
             </div>
         </div>

@@ -1,0 +1,45 @@
+.Home {
+    border: solid;
+
+    &__section-header-container {
+        text-align: center;
+    }
+
+    &__section-body {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 8px;
+    }
+
+    &__section-illustration {
+        width: 250px;
+        border: solid;
+        border-radius: 300px;
+    }
+
+    &__section-profile-details {
+        border: solid;
+        padding: 8px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+    }
+
+    &__section-profile-detail {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
+    &__section-profile-detail-icon, &__section-profile-detail-wording {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__section-profile-detail-wording {
+        justify-content: end;
+    }
+}

@@ -29,6 +29,12 @@
   color: #404040;
 }
 
+.Layout .container {
+  margin: 32px auto;
+  padding: 16px;
+  width: 1200px;
+}
+
 .Contact {
   margin: 16px auto;
   min-width: 500px;
@@ -92,6 +98,52 @@
 .Contact__illustration-container .Contact__illustration {
   width: 100%;
   opacity: 0.5;
+}
+
+.Home {
+  border: solid;
+}
+
+.Home__section-header-container {
+  text-align: center;
+}
+
+.Home__section-body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 8px;
+}
+
+.Home__section-illustration {
+  width: 250px;
+  border: solid;
+  border-radius: 300px;
+}
+
+.Home__section-profile-details {
+  border: solid;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.Home__section-profile-detail {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.Home__section-profile-detail-icon,
+.Home__section-profile-detail-wording {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home__section-profile-detail-wording {
+  justify-content: end;
 }
 
 body {

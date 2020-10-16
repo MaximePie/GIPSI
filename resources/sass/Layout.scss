@@ -3,4 +3,10 @@
     min-height: calc(100vh - 16px);
     padding: $mediumSpacing;
     color: $black;
+
+    .container {
+        margin: 32px auto;
+        padding: 16px;
+        width: 1200px;
+    }
 }
